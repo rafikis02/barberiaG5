@@ -1,0 +1,113 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;	
+	
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+	
+	
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: blod;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{ /* movimiento de mouse dinamico */
+	color: #C78C19;
+	text-decoration: underline;
+	
+	
+}
+
+
+
+.productos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+	
+}
+
+.productos li{
+	display: inline-block;
+	text-align: center;
+	width:30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	
+	
+}
+
+.productos li:hover{ /* efecto de color de border naranga*/
+	border-color: #C78C19;
+	
+}
+
+.productos li:active{ /*al dar clic el mouse con mouse decora el borde*/
+	border-color: #088c19;
+	
+}
+
+.productos li:hover h2{ /* efecto dinamico de h2 con el texto de cada paquete*/
+	font-size: 33px;
+}	
+
+
+
+.productos h2{
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.producto-descripcion{
+	font-size: 18px;
+	
+}
+.prducto-costo{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	
+	
+}
+
+footer{
+	text-align: center;
+	background: url(imagenes/bg.jpg);
+	padding: 40px;
+	
+}
+.pie{
+	color: #ffffff;
+	font-size: 13 px;
+	margin: 20px;
+	
+}
+
+
+
+

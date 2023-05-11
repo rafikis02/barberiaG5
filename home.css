@@ -1,0 +1,66 @@
+body{
+			background-color: #000000;
+	
+}
+.fondo{
+	height: 180px;
+	background-image: url("imagenes/bg-inicio2.jpg");
+	opacity: 0.9;	
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center center;	
+	background-attachment: fixed;
+	
+}
+.titulo{
+		
+	background-color: #663333;
+	opacity: 0.9;
+	font-family: "Arial";
+	font-style: italic;
+	color: #ffffff;
+		
+}
+h2{
+	color: #ffffff;
+	position: absolute;
+	top: 240px;
+	right: 530px;	
+	
+	
+}
+a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: blod;
+    text-decoration: none;
+}
+
+
+
+a:hover{
+	color: #C78C19;
+	text-decoration: underline;	
+	
+	
+}
+P{
+		font-family: "Arial";
+		font-size: 18px;
+		font-style: italic;
+		color: #000000;
+	
+}
+
+footer{
+	text-align: center;
+	background: url(imagenes/bg.jpg);
+	padding: 40px;
+	
+}
+.pie{
+	color: #ffffff;
+	font-size: 13 px;
+	margin: 20px;
+	
+}
